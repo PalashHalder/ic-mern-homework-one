@@ -27,34 +27,29 @@ a {
     color: tomato;
     text-align: center;
     margin: 20px 0px 50px 0px;
-=======
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 }
 
-ul,
-ol {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-.container{
-    width: 80%;
-    margin: 0 auto;
-    padding: 16px;
-   
-}
-
-.container h1{
-    tab-size: 40px;
-    font-family: 'Hind Siliguri', sans-serif;
-    color: tomato;
+.topnav {
+    background-color: rgb(29, 131, 247);
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
     text-align: center;
-    margin: 20px 0px 50px 0px;
->>>>>>> 71d81d8253d117ab6b5bdbe25ec7df8f00d41429
-}
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
