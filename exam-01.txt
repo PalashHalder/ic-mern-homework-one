@@ -1,0 +1,92 @@
+1.	Write 5 meta tags and their usages.
+Ans:Name of 5 meta tags are given below: 
+A.	Charset
+B.	Description
+C.	Keywords
+D.	Author
+E.	Viewport
+
+Meta tags are used inside <head> tag. For example- 
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Online Daily Shopping">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Palash Halder">
+  <meta name="viewport" content="width=device-width, initial- 
+  scale=1.0">
+</head>
+
+
+
+2.	What is Semantic Element? Give five examples.
+Ans: The element that clearly defines its aim both to the developer and browser is called Semantic Element. 
+For example: 
+ 
+•	<main>
+•	<nav>
+•	<section>
+•	<header>
+•	<footer>
+•	<article>
+•	<aside>
+•	<details>
+•	<figcaption>
+•	<figure>
+•	<mark>
+•	<summary>
+•	<time>
+ 
+
+
+
+
+3.	Table Design:
+Html part:
+<header>Table Design</header>
+<table class="center">
+<th>Product</th>
+<th>Flavour</th>
+       	<tr>
+          <td rowspan="3">Milk</td>
+          <td>Almond</td>
+       	</tr>
+       	<tr>
+          <td>Almond</td>
+          </tr><tr>
+                <td>Almond</td>
+          </tr>
+          <tr>
+                <td colspan="2">There are 
+exclusive flavours</td>
+          </tr>
+ </table>
+
+Css part: 
+header{
+  text-align: center;
+  font-size: 24px;
+  color: #04AA6D;
+  margin-top: 50px ;
+  margin-bottom: 30px ;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+ table, th, td{
+  border: 1px solid green;
+  border-collapse: collapse;
+ }
+
+ th{
+  text-align: center;
+ }
+ td{
+  padding: 10px;
+ }
+
+
+
+Please be noted that: 
+Answer of question No: 4 and 5 are shown in the project.
